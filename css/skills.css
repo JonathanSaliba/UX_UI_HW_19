@@ -1,0 +1,12 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+.mySkills h1 {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    font-size: 64px;
+    margin: 5px;
+    padding: 5px;
+    margin-left: 5rem;
+}

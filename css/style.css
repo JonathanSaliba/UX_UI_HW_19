@@ -1,0 +1,144 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+body {
+    padding:0;
+    margin: 0;
+    background: 
+    radial-gradient(100% 100% at 50% 0%, #2C2C31 52.58%, rgba(0, 0, 0, 0) 99.94%), 
+    conic-gradient(from 90.04deg at 12.53% 0%, rgba(217, 183, 154, 0.5) 0deg, #D9B79A 203.22deg, rgba(217, 183, 154, 0.5) 360deg), 
+    radial-gradient(50% 118.54% at 50% 50%, rgba(233, 228, 224, 0.5) 0%, rgba(233, 228, 224, 0) 100%), 
+    linear-gradient(180deg, #2C2C31 0%, #2C2C31 100%), #FFFFFF;
+    font-family: 'Lexend Exa', sans-serif;
+    color: white;
+    min-height: 100vh;
+}
+.container {
+    max-width: 1512px;
+    margin: 0 auto;
+    padding:0 auto;
+}
+
+.fullheightgrow {
+    display: flex;
+    flex-direction: column;
+}
+
+.logo {
+    display: flex;
+    justify-content: flex-start;
+    width: 122px;
+    height: 116.93px;
+}
+
+.horznav ul {
+    display: flex;
+    margin:0;
+    padding: 0;
+    list-style: none;
+}
+
+.horznav a {
+    color: inherit;
+    text-decoration: none;
+    padding: 1rem;
+}
+
+.horznav a:hover {
+    color: #ED2C3B;
+}
+
+.mainheader {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     height: 140px;
+}
+
+.vertnav ul {
+    margin:0;
+    padding: 0;
+    list-style: none;
+}
+
+.vertnav a {
+    color: inherit;
+    text-decoration: none;
+    padding: 1rem;
+    display: block;
+    margin: 3rem 0;
+}
+
+.vertnav a:hover {
+    color: #ED2C3B;
+}
+
+.vertnav {
+    height: 100%;
+    width: 190px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    padding-top: 80px;
+}
+
+.hero{
+    margin-left: 160px;
+    padding: 0px 10px;
+}
+
+.title {
+    font-weight: 600;
+    font-size: 4em;
+    margin-bottom: 1rem;
+    margin-top: 0;
+}
+
+.subtitle {
+    font: 600;
+    font-size: 2em;
+    margin-bottom: 2rem;
+}
+
+.btn {
+    color: white;
+    background-color: #F1185B;
+    padding: .75rem 2.5rem;
+    border-radius: 35px;
+    border: 3px solid rgba(73, 95, 223, 0.51);
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.9rem;
+    margin: 0 auto;
+}
+
+.footernav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footernav a{
+    margin: 1rem;
+}
+
+.footernav img {
+    height: 31px;
+    width: 31px;
+}
+
+.footernav ul {
+    display: flex;
+    margin: 31px;
+    padding: 0;
+    list-style: none;
+    align-items: center;
+}
+
+.mainfooter {
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    background: linear-gradient(67.13deg, rgba(217, 183, 154, 0.2) 56.45%, rgba(217, 183, 154, 0.1) 100%), linear-gradient(90deg, rgba(233, 228, 224, 0.5) 0%, rgba(233, 228, 224, 0) 100%), linear-gradient(180deg, #2C2C31 0%, #2C2C31 100%), #FFFFFF;;
+}
